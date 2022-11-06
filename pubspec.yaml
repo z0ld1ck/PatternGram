@@ -1,0 +1,57 @@
+name: pattern_gram
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^3.0.1
+  font_awesome_flutter: ^10.2.1
+  firebase_core: ^2.1.1
+  cloud_firestore: ^4.0.4
+  google_sign_in: ^5.4.2
+  firebase_auth: ^4.0.2
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.4
+
+dependency_overrides:
+  collection: ^1.16.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/flutter.png
+     - assets/images/fullscreen.jpg
+     - assets/images/img1.jpg
+     - assets/images/img2.jpg
+     - assets/images/img3.jpg
+     - assets/images/logo.png
+     - assets/images/logo2.png
+
+  fonts:
+     - family: Monsterrat
+       fonts:
+         - asset: assets/fonts/Montserrat-Medium.ttf
+
+
+
+assets/images/flutter:
+  png:
