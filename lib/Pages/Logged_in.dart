@@ -22,7 +22,7 @@ class LoggendIn extends StatelessWidget {
         color: Colors.blueGrey.shade900,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children:[```
+          children:[
             const Text(
               'Profile',
               style: TextStyle(fontSize: 24),
